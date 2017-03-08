@@ -37,6 +37,11 @@ In case of rate limit exceeded
 
 {"hotelList":null,"errorCode":"403","errorMessage":"Api rate limit exceeded","status":"FORBIDDEN"}
 
+Rate Limter Implementation
+===========================
+
+Fixed window implementation. Each time window has come consumable counter associated, counter decrements with each request. All requests when counter drops to zero are rejected. All incoming requests my be suspened till a fixed period. Counter replenishes after the time frame has expired. 
+
 Assumptions
 ============
   1. sort query parameter can be ASC, DESC. It is optional. Any other value is dicarded
