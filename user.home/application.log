@@ -1,0 +1,65 @@
+"2017-03-08 18:39:07 [main] INFO  com.demo.hotel.HotelApiApplication - Starting HotelApiApplication on l-5nzf152 with PID 29809 (/home/local/JASPERINDIA/abhishek.jain01/Documents/checkout_ws/gitab/HotelApi/target/classes started by abhishek.jain01 in /home/local/JASPERINDIA/abhishek.jain01/Documents/checkout_ws/gitab/HotelApi)
+""2017-03-08 18:39:07 [main] INFO  com.demo.hotel.HotelApiApplication - No active profile set, falling back to default profiles: default
+""2017-03-08 18:39:07 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1f9f6368: startup date [Wed Mar 08 18:39:07 IST 2017]; root of context hierarchy
+""2017-03-08 18:39:10 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+""2017-03-08 18:39:10 [main] INFO  o.a.catalina.core.StandardService - Starting service Tomcat
+""2017-03-08 18:39:10 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.6
+""2017-03-08 18:39:10 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2017-03-08 18:39:10 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2017-03-08 18:39:10 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'metricsFilter' to: [/*]
+""2017-03-08 18:39:10 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2017-03-08 18:39:10 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+""2017-03-08 18:39:10 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'applicationContextIdFilter' to: [/*]
+""2017-03-08 18:39:11 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+""2017-03-08 18:39:11 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/logfile || /logfile.json],methods=[GET || HEAD]}" onto public void org.springframework.boot.actuate.endpoint.mvc.LogFileMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+""2017-03-08 18:39:11 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+""2017-03-08 18:39:11 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+""2017-03-08 18:39:11 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+""2017-03-08 18:39:11 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+""2017-03-08 18:39:11 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+""2017-03-08 18:39:11 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+""2017-03-08 18:39:11 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+""2017-03-08 18:39:11 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+""2017-03-08 18:39:11 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+""2017-03-08 18:39:11 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+""2017-03-08 18:39:11 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+""2017-03-08 18:39:11 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+""2017-03-08 18:39:12 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2017-03-08 18:39:12 [main] INFO  o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 0
+""2017-03-08 18:39:12 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+""2017-03-08 18:39:12 [main] INFO  com.demo.hotel.HotelApiApplication - Started HotelApiApplication in 5.14 seconds (JVM running for 9.504)
+""2017-03-08 18:39:22 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2017-03-08 18:39:22 [http-nio-8080-exec-1] INFO  c.d.h.h.c.RateLimitConfiguration -  Api called after the time frame has renewed for apiKey : getHotelList
+""2017-03-08 18:39:22 [http-nio-8080-exec-1] INFO  c.d.h.h.c.HotelApiController - Get hotel list api called for city : Bangkok, apiKey : getHotelList, sorting order : null
+""2017-03-08 18:39:38 [http-nio-8080-exec-2] INFO  c.d.h.h.c.RateLimitConfiguration -  Api called after the time frame has renewed for apiKey : getHotelList
+""2017-03-08 18:39:38 [http-nio-8080-exec-2] INFO  c.d.h.h.c.HotelApiController - Get hotel list api called for city : Bangkok, apiKey : getHotelList, sorting order : null
+""2017-03-08 18:39:45 [http-nio-8080-exec-3] INFO  c.d.h.h.c.RateLimitConfiguration -  Api called within the time frame for apiKey : getHotelList. So incrementing the counter for the api key.
+""2017-03-08 18:39:45 [http-nio-8080-exec-3] INFO  c.d.h.h.c.HotelApiController - Get hotel list api called for city : Bangkok, apiKey : getHotelList, sorting order : null
+""2017-03-08 18:39:46 [http-nio-8080-exec-4] INFO  c.d.h.h.c.RateLimitConfiguration -  Api called within the time frame for apiKey : getHotelList. So incrementing the counter for the api key.
+""2017-03-08 18:39:46 [http-nio-8080-exec-4] INFO  c.d.h.h.c.HotelApiController - Get hotel list api called for city : Bangkok, apiKey : getHotelList, sorting order : null
+""2017-03-08 18:39:54 [http-nio-8080-exec-5] INFO  c.d.h.h.c.RateLimitConfiguration -  Api called after the time frame has renewed for apiKey : getHotelList
+""2017-03-08 18:39:54 [http-nio-8080-exec-5] INFO  c.d.h.h.c.HotelApiController - Get hotel list api called for city : Bangkok, apiKey : getHotelList, sorting order : null
+""2017-03-08 18:39:57 [http-nio-8080-exec-6] INFO  c.d.h.h.c.RateLimitConfiguration -  Api called within the time frame for apiKey : getHotelList. So incrementing the counter for the api key.
+""2017-03-08 18:39:57 [http-nio-8080-exec-6] INFO  c.d.h.h.c.HotelApiController - Get hotel list api called for city : Bangkok, apiKey : getHotelList, sorting order : null
+""2017-03-08 18:39:58 [http-nio-8080-exec-7] INFO  c.d.h.h.c.RateLimitConfiguration -  Api called within the time frame for apiKey : getHotelList. So incrementing the counter for the api key.
+""2017-03-08 18:39:58 [http-nio-8080-exec-7] INFO  c.d.h.h.c.HotelApiController - Get hotel list api called for city : Bangkok, apiKey : getHotelList, sorting order : null
+""2017-03-08 18:39:59 [http-nio-8080-exec-8] INFO  c.d.h.h.c.RateLimitConfiguration -  Api called within the time frame for apiKey : getHotelList. So incrementing the counter for the api key.
+""2017-03-08 18:39:59 [http-nio-8080-exec-8] INFO  c.d.h.h.c.HotelApiController - Get hotel list api called for city : Bangkok, apiKey : getHotelList, sorting order : null
+""2017-03-08 18:40:00 [http-nio-8080-exec-9] INFO  c.d.h.h.c.RateLimitConfiguration -  Api called within the time frame for apiKey : getHotelList. So incrementing the counter for the api key.
+""2017-03-08 18:40:00 [http-nio-8080-exec-9] INFO  c.d.h.h.c.HotelApiController - Get hotel list api called for city : Bangkok, apiKey : getHotelList, sorting order : null
+""2017-03-08 18:40:00 [http-nio-8080-exec-10] INFO  c.d.h.h.c.RateLimitConfiguration -  Api counter has exceeded the permissible value for apiKey : getHotelList. So suspending the api key for 5 minutes.
+""2017-03-08 18:40:00 [http-nio-8080-exec-10] INFO  c.d.h.h.aspect.RateLimitAspect - Api limit reached for api key : getHotelList
+""2017-03-08 18:40:17 [http-nio-8080-exec-1] INFO  c.d.h.h.c.RateLimitConfiguration -  Api called when in SUSPENDED state for apiKey : getHotelList. So blocking the call to the api.
+""2017-03-08 18:40:17 [http-nio-8080-exec-1] INFO  c.d.h.h.aspect.RateLimitAspect - Api limit reached for api key : getHotelList
+""2017-03-08 18:40:18 [http-nio-8080-exec-2] INFO  c.d.h.h.c.RateLimitConfiguration -  Api called when in SUSPENDED state for apiKey : getHotelList. So blocking the call to the api.
+""2017-03-08 18:40:18 [http-nio-8080-exec-2] INFO  c.d.h.h.aspect.RateLimitAspect - Api limit reached for api key : getHotelList
+""2017-03-08 18:40:18 [http-nio-8080-exec-3] INFO  c.d.h.h.c.RateLimitConfiguration -  Api called when in SUSPENDED state for apiKey : getHotelList. So blocking the call to the api.
+""2017-03-08 18:40:18 [http-nio-8080-exec-3] INFO  c.d.h.h.aspect.RateLimitAspect - Api limit reached for api key : getHotelList
+""2017-03-08 18:40:18 [http-nio-8080-exec-4] INFO  c.d.h.h.c.RateLimitConfiguration -  Api called when in SUSPENDED state for apiKey : getHotelList. So blocking the call to the api.
+""2017-03-08 18:40:18 [http-nio-8080-exec-4] INFO  c.d.h.h.aspect.RateLimitAspect - Api limit reached for api key : getHotelList
+""2017-03-08 18:40:18 [http-nio-8080-exec-5] INFO  c.d.h.h.c.RateLimitConfiguration -  Api called when in SUSPENDED state for apiKey : getHotelList. So blocking the call to the api.
+""2017-03-08 18:40:18 [http-nio-8080-exec-5] INFO  c.d.h.h.aspect.RateLimitAspect - Api limit reached for api key : getHotelList
+""2017-03-08 18:45:54 [Thread-2] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1f9f6368: startup date [Wed Mar 08 18:39:07 IST 2017]; root of context hierarchy
+""2017-03-08 18:45:54 [Thread-2] INFO  o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase 0
+""2017-03-08 18:45:54 [Thread-2] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+"
